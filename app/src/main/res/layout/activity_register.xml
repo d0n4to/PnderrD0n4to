@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#8483768E"
+    android:padding="24dp"
+    tools:context=".activites.Register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrati"
+        android:textSize="24sp"
+        android:textColor="#222222"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="32dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/emailInput"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:backgroundTint="#303F9F"
+        android:layout_marginBottom="16dp"
+        android:textColor="#404040" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/passwordInput"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:backgroundTint="#303F9F"
+        android:layout_marginBottom="16dp"
+        android:textColor="#404040" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Conferma Password"
+        android:id="@+id/confirmPasswordInput"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:backgroundTint="#303F9F"
+        android:layout_marginBottom="24dp"
+        android:textColor="#404040" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrati"
+        android:id="@+id/registerBtn"
+        android:backgroundTint="#3E8E41"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:padding="12dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indietro"
+        android:id="@+id/btnBack"
+        android:backgroundTint="#3E8E41"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:padding="12dp" />
+
+</LinearLayout>

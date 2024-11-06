@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "461517437341",
+    "firebase_url": "https://pnderrd0n4to-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pnderrd0n4to",
+    "storage_bucket": "pnderrd0n4to.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461517437341:android:779a3169ea44ce67e1d774",
+        "android_client_info": {
+          "package_name": "com.itis.pnderrd0n4to"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXb3P2VLNTuNBceK6lYoywX_Q3oM_b-68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
